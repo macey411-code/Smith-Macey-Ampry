@@ -80,7 +80,7 @@ export function InputForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input type="email" placeholder="you@example.com" {...field} />
+                <Input type="email" placeholder="John@example.com" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -95,7 +95,7 @@ export function InputForm() {
             <FormItem>
               <FormLabel>Comments</FormLabel>
               <FormControl>
-                <textarea placeholder="Your message..." {...field} className="w-full p-2 border" />
+                <textarea placeholder="Please share your thoughts..." {...field} className="w-full p-2 border" />
               </FormControl>
               <FormMessage />
             </FormItem>
